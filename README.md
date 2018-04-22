@@ -10,6 +10,7 @@ This saves you time looking at apartments that have suboptimal location and that
 ## Usage ##
 
 1. Adjust the search settings and locations in `bot.py`
-2. Add gmaps api keys to your environment variables or to `bot.py` directly
-3. Add your key to `credentials.json`
-4. Adjust and run `trigger.sh` (optionally add it to a cronjob) 
+2. Set up gmaps developer api access
+3. Add gmaps api keys to your environment variables or to `bot.py` directly
+4. Add your `credentials.json` from the gmaps developer page
+5. Adjust and run `trigger.sh` (optionally add it to a cronjob) 
